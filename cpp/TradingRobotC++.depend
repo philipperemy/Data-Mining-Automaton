@@ -1,0 +1,910 @@
+# depslib dependency file v1.0
+1189864956 source:c:\users\philippe\git\tradingrobotc++\tradingrobotc++\main.cpp
+	<iostream>
+
+1334348863 source:c:\users\philippe\git\tradingrobotc++\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+	"include/WeightsContainer.h"
+	"include/MarketData.h"
+
+1315025272 c:\users\philippe\git\tradingrobotc++\neuralnetwork.h
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"CSVParser.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+
+1315025272 c:\users\philippe\git\tradingrobotc++\csvparser.h
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+
+1315042424 source:c:\users\philippe\git\tradingrobotc++\neuralnetwork.cpp
+	"NeuralNetwork.h"
+	<iostream>
+	<fstream>
+	<limits.h>
+
+1325521792 source:c:\users\philippe\git\tradingrobotc++\csvparser.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1330777112 source:c:\users\philippe\git\tradingrobotc++\src\csvparser.cpp
+	"../include/CSVParser.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+
+1331384790 c:\users\philippe\git\tradingrobotc++\include\csvparser.h
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"Utils.h"
+
+1331380582 source:c:\users\philippe\git\tradingrobotc++\src\neuralnetwork.cpp
+	"../include/NeuralNetwork.h"
+	<iostream>
+	<fstream>
+	<limits.h>
+	<math.h>
+	<windows.h>
+
+1331380594 c:\users\philippe\git\tradingrobotc++\include\neuralnetwork.h
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"CSVParser.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	"Layer.h"
+	"Neuron.h"
+	"InputNeuron.h"
+	"HiddenNeuron.h"
+	"OutputNeuron.h"
+	"Utils.h"
+	"WeightsContainer.h"
+
+1325338132 source:c:\users\philippe\git\tradingrobotc++\src\neuron.cpp
+	"../include/Neuron.h"
+	<iostream>
+
+1325245858 c:\users\philippe\git\tradingrobotc++\include\neuron.h
+
+1325161416 source:c:\users\philippe\git\tradingrobotc++\src\hiddenneuron.cpp
+	"../include/HiddenNeuron.h"
+	<iostream>
+
+1325276758 c:\users\philippe\git\tradingrobotc++\include\hiddenneuron.h
+	"../include/Neuron.h"
+
+1325161372 source:c:\users\philippe\git\tradingrobotc++\src\inputneuron.cpp
+	"../include/InputNeuron.h"
+	<iostream>
+
+1325276626 c:\users\philippe\git\tradingrobotc++\include\inputneuron.h
+	"../include/Neuron.h"
+
+1325340528 source:c:\users\philippe\git\tradingrobotc++\src\layer.cpp
+	"../include/Layer.h"
+	<stdlib.h>
+
+1325340528 c:\users\philippe\git\tradingrobotc++\include\layer.h
+	<iostream>
+	<string>
+	<vector>
+	"../include/Neuron.h"
+
+1331378446 source:c:\users\philippe\git\tradingrobotc++\src\utils.cpp
+	"../include/Utils.h"
+	<math.h>
+	<iostream>
+
+1333822294 c:\users\philippe\git\tradingrobotc++\include\utils.h
+	<vector>
+
+1325522044 source:c:\users\philippe\git\tradingrobotc++\src\filemonitor.cpp
+	"../include/FileMonitor.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1325276980 c:\users\philippe\git\tradingrobotc++\include\filemonitor.h
+	<iostream>
+	<fstream>
+	<string>
+
+1334349241 source:c:\users\philippe\git\tradingrobotc++\src\tradingrobot.cpp
+	"../include/TradingRobot.h"
+	"../Header.h"
+
+1330773092 c:\users\philippe\git\tradingrobotc++\include\tradingrobot.h
+	"../Header.h"
+
+1330772838 source:c:\users\philippe\git\tradingrobotc++\src\filemonitorrobot.cpp
+	"../include/FileMonitorRobot.h"
+	"../include/TradingRobot.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1330772832 c:\users\philippe\git\tradingrobotc++\include\filemonitorrobot.h
+	"../Header.h"
+
+1325260892 source:c:\users\philippe\git\tradingrobotc++\src\pricesrecord.cpp
+	"../include/PricesRecord.h"
+
+1325260874 c:\users\philippe\git\tradingrobotc++\include\pricesrecord.h
+	<iostream>
+	<string>
+	<vector>
+	"../include/Record.h"
+
+1325187818 c:\users\philippe\git\tradingrobotc++\include\record.h
+	<string>
+
+1325187852 source:c:\users\philippe\git\tradingrobotc++\src\record.cpp
+	"../include/Record.h"
+
+1325186836 source:c:\users\philippe\git\tradingrobotc++\src\trade.cpp
+	"../include/Trade.h"
+	<iostream>
+	<stdlib.h>
+
+1325186840 c:\users\philippe\git\tradingrobotc++\include\trade.h
+	<string>
+
+1325189086 source:c:\users\philippe\git\tradingrobotc++\src\tradesrecord.cpp
+	"../include/TradesRecord.h"
+	"../include/Trade.h"
+
+1325189050 c:\users\philippe\git\tradingrobotc++\include\tradesrecord.h
+	"Trade.h"
+	"Record.h"
+	<vector>
+	<iostream>
+
+1334351986 source:c:\users\philippe\git\tradingrobotc++\src\neuralnetworkexecution.cpp
+	"../include/NeuralNetworkExecution.h"
+
+1330773994 c:\users\philippe\git\tradingrobotc++\include\neuralnetworkexecution.h
+	<iostream>
+	"CSVParser.h"
+	"NeuralNetwork.h"
+	"Utils.h"
+
+1325199247 source:c:\users\philippe\git\tradingrobotc++\src\neuralnetworkexecutionfactory.cpp
+	"../include/NeuralNetworkExecutionFactory.h"
+
+1325245574 c:\users\philippe\git\tradingrobotc++\include\neuralnetworkexecutionfactory.h
+	"NeuralNetworkExecution.h"
+
+1325202932 source:c:\users\philippe\git\tradingrobotc++\src\neuralnetworkfactory.cpp
+	"../include/NeuralNetworkFactory.h"
+
+1325245558 c:\users\philippe\git\tradingrobotc++\include\neuralnetworkfactory.h
+	"../include/NeuralNetwork.h"
+
+1325277144 source:c:\users\philippe\git\tradingrobotc++\src\tradingrobotfactory.cpp
+	"../include/TradingRobotFactory.h"
+
+1325277146 c:\users\philippe\git\tradingrobotc++\include\tradingrobotfactory.h
+	"../Header.h"
+
+1325276640 c:\users\philippe\git\tradingrobotc++\include\outputneuron.h
+	"Neuron.h"
+
+1331379184 source:c:\users\philippe\git\tradingrobotc++\src\outputneuron.cpp
+	"../include/OutputNeuron.h"
+	<iostream>
+
+1325262190 c:\users\philippe\git\tradingrobotc++\header.h
+	<windows.h>
+	<iostream>
+	<vector>
+	<string>
+	"include/CSVParser.h"
+	"include/FileMonitor.h"
+	"include/FileMonitorRobot.h"
+	"include/HiddenNeuron.h"
+	"include/InputNeuron.h"
+	"include/Layer.h"
+	"include/NeuralNetwork.h"
+	"include/NeuralNetworkExecution.h"
+	"include/NeuralNetworkExecutionFactory.h"
+	"include/NeuralNetworkFactory.h"
+	"include/Neuron.h"
+	"include/OutputNeuron.h"
+	"include/PricesRecord.h"
+	"include/Record.h"
+	"include/Trade.h"
+	"include/TradesRecord.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1325422966 source:c:\users\philippe\git\tradingrobotc++\neuralnetworktest.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1325435262 source:c:\users\philippe\git\tradingrobotc++\neuralnetworkexecutiontest.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/Utils.h"
+	"include/NeuralNetworkExecution.h"
+
+1330986630 source:c:\users\philippe\git\tradingrobotc++\src\weightscontainer.cpp
+	"../include/WeightsContainer.h"
+
+1330986976 c:\users\philippe\git\tradingrobotc++\include\weightscontainer.h
+	"Utils.h"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1333817017 source:c:\users\philippe\git\tradingrobotc++\src\marketdata.cpp
+	"../include/MarketData.h"
+
+1333816192 c:\users\philippe\git\tradingrobotc++\include\marketdata.h
+	<iostream>
+	<windows.h>
+
+1325522044 source:c:\users\philippe\git\tradingrobotc++binary\src\filemonitor.cpp
+	"../include/FileMonitor.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1325276980 c:\users\philippe\git\tradingrobotc++binary\include\filemonitor.h
+	<iostream>
+	<fstream>
+	<string>
+
+1330772838 source:c:\users\philippe\git\tradingrobotc++binary\src\filemonitorrobot.cpp
+	"../include/FileMonitorRobot.h"
+	"../include/TradingRobot.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1330772832 c:\users\philippe\git\tradingrobotc++binary\include\filemonitorrobot.h
+	"../Header.h"
+
+1325262190 c:\users\philippe\git\tradingrobotc++binary\header.h
+	<windows.h>
+	<iostream>
+	<vector>
+	<string>
+	"include/CSVParser.h"
+	"include/FileMonitor.h"
+	"include/FileMonitorRobot.h"
+	"include/HiddenNeuron.h"
+	"include/InputNeuron.h"
+	"include/Layer.h"
+	"include/NeuralNetwork.h"
+	"include/NeuralNetworkExecution.h"
+	"include/NeuralNetworkExecutionFactory.h"
+	"include/NeuralNetworkFactory.h"
+	"include/Neuron.h"
+	"include/OutputNeuron.h"
+	"include/PricesRecord.h"
+	"include/Record.h"
+	"include/Trade.h"
+	"include/TradesRecord.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1336591687 c:\users\philippe\git\tradingrobotc++binary\include\csvparser.h
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"Utils.h"
+
+1334512599 c:\users\philippe\git\tradingrobotc++binary\include\utils.h
+	<vector>
+
+1325276758 c:\users\philippe\git\tradingrobotc++binary\include\hiddenneuron.h
+	"../include/Neuron.h"
+
+1325245858 c:\users\philippe\git\tradingrobotc++binary\include\neuron.h
+
+1325276626 c:\users\philippe\git\tradingrobotc++binary\include\inputneuron.h
+	"../include/Neuron.h"
+
+1325340528 c:\users\philippe\git\tradingrobotc++binary\include\layer.h
+	<iostream>
+	<string>
+	<vector>
+	"../include/Neuron.h"
+
+1331380594 c:\users\philippe\git\tradingrobotc++binary\include\neuralnetwork.h
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"CSVParser.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	"Layer.h"
+	"Neuron.h"
+	"InputNeuron.h"
+	"HiddenNeuron.h"
+	"OutputNeuron.h"
+	"Utils.h"
+	"WeightsContainer.h"
+
+1325276640 c:\users\philippe\git\tradingrobotc++binary\include\outputneuron.h
+	"Neuron.h"
+
+1330986976 c:\users\philippe\git\tradingrobotc++binary\include\weightscontainer.h
+	"Utils.h"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1330773994 c:\users\philippe\git\tradingrobotc++binary\include\neuralnetworkexecution.h
+	<iostream>
+	"CSVParser.h"
+	"NeuralNetwork.h"
+	"Utils.h"
+
+1325245574 c:\users\philippe\git\tradingrobotc++binary\include\neuralnetworkexecutionfactory.h
+	"NeuralNetworkExecution.h"
+
+1325245558 c:\users\philippe\git\tradingrobotc++binary\include\neuralnetworkfactory.h
+	"../include/NeuralNetwork.h"
+
+1325260874 c:\users\philippe\git\tradingrobotc++binary\include\pricesrecord.h
+	<iostream>
+	<string>
+	<vector>
+	"../include/Record.h"
+
+1325187818 c:\users\philippe\git\tradingrobotc++binary\include\record.h
+	<string>
+
+1325186840 c:\users\philippe\git\tradingrobotc++binary\include\trade.h
+	<string>
+
+1325189050 c:\users\philippe\git\tradingrobotc++binary\include\tradesrecord.h
+	"Trade.h"
+	"Record.h"
+	<vector>
+	<iostream>
+
+1330773092 c:\users\philippe\git\tradingrobotc++binary\include\tradingrobot.h
+	"../Header.h"
+
+1325277146 c:\users\philippe\git\tradingrobotc++binary\include\tradingrobotfactory.h
+	"../Header.h"
+
+1325161416 source:c:\users\philippe\git\tradingrobotc++binary\src\hiddenneuron.cpp
+	"../include/HiddenNeuron.h"
+	<iostream>
+
+1325161372 source:c:\users\philippe\git\tradingrobotc++binary\src\inputneuron.cpp
+	"../include/InputNeuron.h"
+	<iostream>
+
+1325340528 source:c:\users\philippe\git\tradingrobotc++binary\src\layer.cpp
+	"../include/Layer.h"
+	<stdlib.h>
+
+1334514140 source:c:\users\philippe\git\tradingrobotc++binary\src\marketdata.cpp
+	"../include/MarketData.h"
+
+1334512531 c:\users\philippe\git\tradingrobotc++binary\include\marketdata.h
+	<iostream>
+	<sstream>
+	<windows.h>
+
+1331380582 source:c:\users\philippe\git\tradingrobotc++binary\src\neuralnetwork.cpp
+	"../include/NeuralNetwork.h"
+	<iostream>
+	<fstream>
+	<limits.h>
+	<math.h>
+	<windows.h>
+
+1334429362 source:c:\users\philippe\git\tradingrobotc++binary\src\neuralnetworkexecution.cpp
+	"../include/NeuralNetworkExecution.h"
+
+1325202932 source:c:\users\philippe\git\tradingrobotc++binary\src\neuralnetworkfactory.cpp
+	"../include/NeuralNetworkFactory.h"
+
+1325338132 source:c:\users\philippe\git\tradingrobotc++binary\src\neuron.cpp
+	"../include/Neuron.h"
+	<iostream>
+
+1331379184 source:c:\users\philippe\git\tradingrobotc++binary\src\outputneuron.cpp
+	"../include/OutputNeuron.h"
+	<iostream>
+
+1325260892 source:c:\users\philippe\git\tradingrobotc++binary\src\pricesrecord.cpp
+	"../include/PricesRecord.h"
+
+1325187852 source:c:\users\philippe\git\tradingrobotc++binary\src\record.cpp
+	"../include/Record.h"
+
+1325186836 source:c:\users\philippe\git\tradingrobotc++binary\src\trade.cpp
+	"../include/Trade.h"
+	<iostream>
+	<stdlib.h>
+
+1325189086 source:c:\users\philippe\git\tradingrobotc++binary\src\tradesrecord.cpp
+	"../include/TradesRecord.h"
+	"../include/Trade.h"
+
+1334349241 source:c:\users\philippe\git\tradingrobotc++binary\src\tradingrobot.cpp
+	"../include/TradingRobot.h"
+	"../Header.h"
+
+1325277144 source:c:\users\philippe\git\tradingrobotc++binary\src\tradingrobotfactory.cpp
+	"../include/TradingRobotFactory.h"
+
+1331378446 source:c:\users\philippe\git\tradingrobotc++binary\src\utils.cpp
+	"../include/Utils.h"
+	<math.h>
+	<iostream>
+
+1330986630 source:c:\users\philippe\git\tradingrobotc++binary\src\weightscontainer.cpp
+	"../include/WeightsContainer.h"
+
+1336593187 source:c:\users\philippe\git\tradingrobotc++binary\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+	"include/WeightsContainer.h"
+	"include/MarketData.h"
+
+1336591576 source:c:\users\philippe\git\tradingrobotc++binary\src\csvparser.cpp
+	"../include/CSVParser.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+
+1325521792 source:c:\users\philippe\git\tradingrobotc++binary\test\csvparsertest.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1334395991 source:c:\users\philippe\git\tradingrobotc++binary\test\neuralnetworkexecutiontest.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+	"include/NeuralNetworkExecution.h"
+
+1325422966 source:c:\users\philippe\git\tradingrobotc++binary\test\neuralnetworktest.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1334394167 source:c:\users\philippe\git\tradingrobotc++binary\test\weightsmanagertest.cpp
+
+1336925047 source:c:\users\philippe\git\tradingrobotc++binary 2\main.cpp
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<sstream>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+	"include/WeightsContainer.h"
+	"include/MarketData.h"
+
+1334512599 c:\users\philippe\git\tradingrobotc++binary 2\include\utils.h
+	<vector>
+
+1330773092 c:\users\philippe\git\tradingrobotc++binary 2\include\tradingrobot.h
+	"../Header.h"
+
+1325262190 c:\users\philippe\git\tradingrobotc++binary 2\header.h
+	<windows.h>
+	<iostream>
+	<vector>
+	<string>
+	"include/CSVParser.h"
+	"include/FileMonitor.h"
+	"include/FileMonitorRobot.h"
+	"include/HiddenNeuron.h"
+	"include/InputNeuron.h"
+	"include/Layer.h"
+	"include/NeuralNetwork.h"
+	"include/NeuralNetworkExecution.h"
+	"include/NeuralNetworkExecutionFactory.h"
+	"include/NeuralNetworkFactory.h"
+	"include/Neuron.h"
+	"include/OutputNeuron.h"
+	"include/PricesRecord.h"
+	"include/Record.h"
+	"include/Trade.h"
+	"include/TradesRecord.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1336927099 c:\users\philippe\git\tradingrobotc++binary 2\include\csvparser.h
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"Utils.h"
+
+1325276980 c:\users\philippe\git\tradingrobotc++binary 2\include\filemonitor.h
+	<iostream>
+	<fstream>
+	<string>
+
+1330772832 c:\users\philippe\git\tradingrobotc++binary 2\include\filemonitorrobot.h
+	"../Header.h"
+
+1325276758 c:\users\philippe\git\tradingrobotc++binary 2\include\hiddenneuron.h
+	"../include/Neuron.h"
+
+1325245858 c:\users\philippe\git\tradingrobotc++binary 2\include\neuron.h
+
+1325276626 c:\users\philippe\git\tradingrobotc++binary 2\include\inputneuron.h
+	"../include/Neuron.h"
+
+1325340528 c:\users\philippe\git\tradingrobotc++binary 2\include\layer.h
+	<iostream>
+	<string>
+	<vector>
+	"../include/Neuron.h"
+
+1331380594 c:\users\philippe\git\tradingrobotc++binary 2\include\neuralnetwork.h
+	<math.h>
+	<time.h>
+	<stdlib.h>
+	"CSVParser.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	<iostream>
+	"Layer.h"
+	"Neuron.h"
+	"InputNeuron.h"
+	"HiddenNeuron.h"
+	"OutputNeuron.h"
+	"Utils.h"
+	"WeightsContainer.h"
+
+1325276640 c:\users\philippe\git\tradingrobotc++binary 2\include\outputneuron.h
+	"Neuron.h"
+
+1330986976 c:\users\philippe\git\tradingrobotc++binary 2\include\weightscontainer.h
+	"Utils.h"
+	<sstream>
+	<iostream>
+	<fstream>
+
+1330773994 c:\users\philippe\git\tradingrobotc++binary 2\include\neuralnetworkexecution.h
+	<iostream>
+	"CSVParser.h"
+	"NeuralNetwork.h"
+	"Utils.h"
+
+1325245574 c:\users\philippe\git\tradingrobotc++binary 2\include\neuralnetworkexecutionfactory.h
+	"NeuralNetworkExecution.h"
+
+1325245558 c:\users\philippe\git\tradingrobotc++binary 2\include\neuralnetworkfactory.h
+	"../include/NeuralNetwork.h"
+
+1325260874 c:\users\philippe\git\tradingrobotc++binary 2\include\pricesrecord.h
+	<iostream>
+	<string>
+	<vector>
+	"../include/Record.h"
+
+1325187818 c:\users\philippe\git\tradingrobotc++binary 2\include\record.h
+	<string>
+
+1325186840 c:\users\philippe\git\tradingrobotc++binary 2\include\trade.h
+	<string>
+
+1325189050 c:\users\philippe\git\tradingrobotc++binary 2\include\tradesrecord.h
+	"Trade.h"
+	"Record.h"
+	<vector>
+	<iostream>
+
+1325277146 c:\users\philippe\git\tradingrobotc++binary 2\include\tradingrobotfactory.h
+	"../Header.h"
+
+1336921467 c:\users\philippe\git\tradingrobotc++binary 2\include\marketdata.h
+	<iostream>
+	<sstream>
+	<vector>
+	<windows.h>
+	<string>
+	<fstream>
+
+1336927558 source:c:\users\philippe\git\tradingrobotc++binary 2\src\csvparser.cpp
+	"../include/CSVParser.h"
+	<iostream>
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	<iomanip>
+
+1325522044 source:c:\users\philippe\git\tradingrobotc++binary 2\src\filemonitor.cpp
+	"../include/FileMonitor.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1330772838 source:c:\users\philippe\git\tradingrobotc++binary 2\src\filemonitorrobot.cpp
+	"../include/FileMonitorRobot.h"
+	"../include/TradingRobot.h"
+	<sys/types.h>
+	<sys/stat.h>
+	<unistd.h>
+
+1325161416 source:c:\users\philippe\git\tradingrobotc++binary 2\src\hiddenneuron.cpp
+	"../include/HiddenNeuron.h"
+	<iostream>
+
+1325161372 source:c:\users\philippe\git\tradingrobotc++binary 2\src\inputneuron.cpp
+	"../include/InputNeuron.h"
+	<iostream>
+
+1325340528 source:c:\users\philippe\git\tradingrobotc++binary 2\src\layer.cpp
+	"../include/Layer.h"
+	<stdlib.h>
+
+1336925915 source:c:\users\philippe\git\tradingrobotc++binary 2\src\marketdata.cpp
+	"../include/MarketData.h"
+
+1331380582 source:c:\users\philippe\git\tradingrobotc++binary 2\src\neuralnetwork.cpp
+	"../include/NeuralNetwork.h"
+	<iostream>
+	<fstream>
+	<limits.h>
+	<math.h>
+	<windows.h>
+
+1336927324 source:c:\users\philippe\git\tradingrobotc++binary 2\src\neuralnetworkexecution.cpp
+	"../include/NeuralNetworkExecution.h"
+
+1325202932 source:c:\users\philippe\git\tradingrobotc++binary 2\src\neuralnetworkfactory.cpp
+	"../include/NeuralNetworkFactory.h"
+
+1325338132 source:c:\users\philippe\git\tradingrobotc++binary 2\src\neuron.cpp
+	"../include/Neuron.h"
+	<iostream>
+
+1331379184 source:c:\users\philippe\git\tradingrobotc++binary 2\src\outputneuron.cpp
+	"../include/OutputNeuron.h"
+	<iostream>
+
+1325260892 source:c:\users\philippe\git\tradingrobotc++binary 2\src\pricesrecord.cpp
+	"../include/PricesRecord.h"
+
+1325187852 source:c:\users\philippe\git\tradingrobotc++binary 2\src\record.cpp
+	"../include/Record.h"
+
+1325186836 source:c:\users\philippe\git\tradingrobotc++binary 2\src\trade.cpp
+	"../include/Trade.h"
+	<iostream>
+	<stdlib.h>
+
+1325189086 source:c:\users\philippe\git\tradingrobotc++binary 2\src\tradesrecord.cpp
+	"../include/TradesRecord.h"
+	"../include/Trade.h"
+
+1334349241 source:c:\users\philippe\git\tradingrobotc++binary 2\src\tradingrobot.cpp
+	"../include/TradingRobot.h"
+	"../Header.h"
+
+1325277144 source:c:\users\philippe\git\tradingrobotc++binary 2\src\tradingrobotfactory.cpp
+	"../include/TradingRobotFactory.h"
+
+1331378446 source:c:\users\philippe\git\tradingrobotc++binary 2\src\utils.cpp
+	"../include/Utils.h"
+	<math.h>
+	<iostream>
+
+1330986630 source:c:\users\philippe\git\tradingrobotc++binary 2\src\weightscontainer.cpp
+	"../include/WeightsContainer.h"
+
+1325521792 source:c:\users\philippe\git\tradingrobotc++binary 2\test\csvparsertest.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1334395991 source:c:\users\philippe\git\tradingrobotc++binary 2\test\neuralnetworkexecutiontest.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+	"include/NeuralNetworkExecution.h"
+
+1325422966 source:c:\users\philippe\git\tradingrobotc++binary 2\test\neuralnetworktest.cpp
+	<fstream>
+	<vector>
+	<algorithm>
+	<numeric>
+	<sstream>
+	<string>
+	<stdio.h>
+	<string.h>
+	"include/Utils.h"
+	"include/TradingRobot.h"
+	"include/TradingRobotFactory.h"
+	"include/Utils.h"
+
+1334394167 source:c:\users\philippe\git\tradingrobotc++binary 2\test\weightsmanagertest.cpp
+

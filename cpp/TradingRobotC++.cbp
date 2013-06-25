@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6" />
+	<Project>
+		<Option title="TradingRobotC++" />
+		<Option pch_mode="2" />
+		<Option compiler="gcc" />
+		<Option virtualFolders="src\;" />
+		<Build>
+			<Target title="Debug">
+				<Option output="bin\Debug\TradingRobotC++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Debug\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Option parameters="AAPL 4;4;4;4 4 0.9 0.1 10000 70 2 1 1" />
+				<Compiler>
+					<Add option="-g" />
+				</Compiler>
+			</Target>
+			<Target title="Release">
+				<Option output="bin\Release\TradingRobotC++" prefix_auto="1" extension_auto="1" />
+				<Option object_output="obj\Release\" />
+				<Option type="1" />
+				<Option compiler="gcc" />
+				<Compiler>
+					<Add option="-O3" />
+				</Compiler>
+				<Linker>
+					<Add option="-s" />
+				</Linker>
+			</Target>
+		</Build>
+		<Compiler>
+			<Add option="-Wall" />
+			<Add option="-fexceptions" />
+		</Compiler>
+		<Unit filename="Header.h">
+			<Option virtualFolder="src\" />
+		</Unit>
+		<Unit filename="include\CSVParser.h" />
+		<Unit filename="include\FileMonitor.h" />
+		<Unit filename="include\FileMonitorRobot.h" />
+		<Unit filename="include\HiddenNeuron.h" />
+		<Unit filename="include\InputNeuron.h" />
+		<Unit filename="include\Layer.h" />
+		<Unit filename="include\MarketData.h" />
+		<Unit filename="include\NeuralNetwork.h" />
+		<Unit filename="include\NeuralNetworkExecution.h" />
+		<Unit filename="include\NeuralNetworkFactory.h" />
+		<Unit filename="include\Neuron.h" />
+		<Unit filename="include\OutputNeuron.h" />
+		<Unit filename="include\PricesRecord.h" />
+		<Unit filename="include\Record.h" />
+		<Unit filename="include\Trade.h" />
+		<Unit filename="include\TradesRecord.h" />
+		<Unit filename="include\TradingRobot.h" />
+		<Unit filename="include\TradingRobotFactory.h" />
+		<Unit filename="include\Utils.h" />
+		<Unit filename="include\WeightsContainer.h" />
+		<Unit filename="main.cpp">
+			<Option virtualFolder="src\" />
+		</Unit>
+		<Unit filename="src\CSVParser.cpp" />
+		<Unit filename="src\FileMonitor.cpp" />
+		<Unit filename="src\FileMonitorRobot.cpp" />
+		<Unit filename="src\HiddenNeuron.cpp" />
+		<Unit filename="src\InputNeuron.cpp" />
+		<Unit filename="src\Layer.cpp" />
+		<Unit filename="src\MarketData.cpp" />
+		<Unit filename="src\NeuralNetwork.cpp" />
+		<Unit filename="src\NeuralNetworkExecution.cpp" />
+		<Unit filename="src\NeuralNetworkFactory.cpp" />
+		<Unit filename="src\Neuron.cpp" />
+		<Unit filename="src\OutputNeuron.cpp" />
+		<Unit filename="src\PricesRecord.cpp" />
+		<Unit filename="src\Record.cpp" />
+		<Unit filename="src\Trade.cpp" />
+		<Unit filename="src\TradesRecord.cpp" />
+		<Unit filename="src\TradingRobot.cpp" />
+		<Unit filename="src\TradingRobotFactory.cpp" />
+		<Unit filename="src\Utils.cpp" />
+		<Unit filename="src\WeightsContainer.cpp" />
+		<Unit filename="test\CSVParserTest.cpp" />
+		<Unit filename="test\NeuralNetworkExecutionTest.cpp" />
+		<Unit filename="test\NeuralNetworkTest.cpp" />
+		<Unit filename="test\WeightsManagerTest.cpp" />
+		<Extensions>
+			<code_completion />
+			<debugger />
+		</Extensions>
+	</Project>
+</CodeBlocks_project_file>
